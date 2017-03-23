@@ -1,0 +1,51 @@
+﻿body {
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      max-width: 1366px;
+      margin: auto;
+  }
+
+.navbar-default{
+    margin-bottom:0;
+}
+
+
+.slider img{
+    height:300px;
+}
+
+.container-slider {
+    width:100%;
+    padding:0;
+}
+
+.pocetna-slogan{
+    min-height: 150px;
+}
+
+.row{
+    margin-bottom:30px;
+    margin-top:30px;
+}
+.apartmani{margin-top:20px;}
+.apartmani h2{
+    margin-top:0px;
+}
+
+.apartmani img{
+    margin-right:10px;
+}
+
+.our-services{
+    margin-right: 15%;
+}
+
+
+@media screen and (max-width:991px){
+	.our-services{
+        margin-right: 0;
+    }
+}
